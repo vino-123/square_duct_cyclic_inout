@@ -1,0 +1,39 @@
+ubar
+{
+
+expr "Pressure gradient source: uncorrected Ubar = (%f%)";
+
+name Ubar;
+
+titles (
+
+"ubar"
+
+);
+
+type regular;
+
+}
+
+gradp
+{
+
+expr "Pressure gradient source: uncorrected Ubar = %f%, pressure gradient = (%f%)";
+
+
+name gradp;
+
+titles (
+
+"gradp"
+
+);
+
+type regular;
+
+}
+
+
+
+
+
